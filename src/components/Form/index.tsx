@@ -50,7 +50,7 @@ const Form = ({ theme, handleChangeTheme }: FormProps) => {
             </div>
             <a
               href="#"
-              className="text-[13px] text-[#121725] leading-4 font-bold"
+              className="text-[13px] text-[#121725] leading-4 font-bold dark:text-white"
             >
               Esqueceu sua senha?
             </a>

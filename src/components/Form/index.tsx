@@ -21,7 +21,6 @@ const Form = ({ theme, handleChangeTheme }: FormProps) => {
             id="email"
             placeholder="Digite seu e-mail"
           />
-
           <label htmlFor="password" className="font-semibold text-sm">
             Senha
           </label>
@@ -32,7 +31,6 @@ const Form = ({ theme, handleChangeTheme }: FormProps) => {
             id="password"
             placeholder="Digite sua senha"
           />
-
           <div className="flex justify-between my-4">
             <div className="flex items-center gap-2">
               <input
@@ -55,14 +53,12 @@ const Form = ({ theme, handleChangeTheme }: FormProps) => {
               Esqueceu sua senha?
             </a>
           </div>
-
           <button
             type="button"
-            className="bg-[#00defe] font-bold w-full border-[0] p-3 text-[#2d272a] rounded-md my-3 cursor-pointer shadow-lg shadow-[#00defe5b]"
+            className="bg-[#00defe] font-poppins font-bold w-full border-[0] p-3 text-[#2d272a] rounded-md my-3 cursor-pointer shadow-lg shadow-[#00defe5b]"
           >
             Login
           </button>
-
           <small className="block mt-3 text-center text-sm text-[#818387]">
             Não está registrado?{" "}
             <a href="#" className="text-[#00DEFE]">

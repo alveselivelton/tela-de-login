@@ -43,7 +43,7 @@ const Form = ({ theme, handleChangeTheme }: FormProps) => {
               />
               <label
                 htmlFor="save-password"
-                className="text-[13px] text-[#818387] leading-4"
+                className="text-[13px] text-[#818387] leading-4 dark:text-[#9BA1AE]"
               >
                 Lembrar senha
               </label>
